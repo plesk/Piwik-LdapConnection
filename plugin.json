@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "description": "Plugin to make a LDAP connection, which can be used by various LDAP plugins",
   "keywords": ["LDAP", "connection", "ActiveDirectory", "AD", "ThaDafinser", "Plesk"],
-  "license": "GPL v3",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/plesk/Piwik-LdapConnection",
   "authors": [
     {"name": "Plesk", "homepage": "https://www.plesk.com"},
