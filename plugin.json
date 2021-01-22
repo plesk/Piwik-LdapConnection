@@ -2,10 +2,11 @@
   "name": "LdapConnection",
   "version": "4.0.0",
   "description": "Plugin to make a LDAP connection, which can be used by various LDAP plugins",
-  "keywords": ["LDAP", "connection", "ActiveDirectory", "AD", "ThaDafinser"],
+  "keywords": ["LDAP", "connection", "ActiveDirectory", "AD", "ThaDafinser", "Plesk"],
   "license": "GPL v3",
-  "homepage": "https://github.com/ThaDafinser/Piwik-LdapConnection",
+  "homepage": "https://github.com/plesk/Piwik-LdapConnection",
   "authors": [
+    {"name": "Plesk", "homepage": "https://www.plesk.com"},
     {"name": "Martin Keckeis", "homepage": "https://github.com/thadafinser"}
   ],
   "theme": false,
