@@ -2,7 +2,7 @@
 /**
  * @author https://github.com/ThaDafinser
  */
-namespace Piwik\Plugins\LdapConnection;
+namespace Piwik\Plugins\LdapConnectionPlesk;
 
 use Piwik\Menu\MenuAdmin;
 use Piwik\Piwik;
@@ -18,7 +18,7 @@ class Menu extends \Piwik\Plugin\Menu
                 $order = 40);
             
 //             $menu->addDiagnosticItem('CoreAdminHome_MenuDiagnostic', 'LDAP connection', array(
-//                 'module' => 'LdapConnection',
+//                 'module' => 'LdapConnectionPlesk',
 //                 'action' => 'index'
 //             ), Piwik::hasUserSuperUserAccess(), $order = 10);
         }

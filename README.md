@@ -1,4 +1,4 @@
-# Matomo LdapConnection Plugin
+# Matomo LdapConnectionPlesk Plugin
 
 ## Description
 
@@ -23,7 +23,7 @@ For documentation please see http://framework.zend.com/manual/2.3/en/index.html#
 namespace Piwik\Plugins\YourPlugin;
 
 use Piwik\Plugin;
-use Piwik\Plugins\LdapConnection\API as APILdapConnection;
+use Piwik\Plugins\LdapConnectionPlesk\API as APILdapConnectionPlesk;
 use Zend\Ldap\Ldap;
 
 class YourPlugin extends Plugin
@@ -31,7 +31,7 @@ class YourPlugin extends Plugin
     private function doSomething()
     {
     	/* @var $ldap \Zend\Ldap\Ldap */
-        $ldap = APILdapConnection::getInstance()->getConnection();
+        $ldap = APILdapConnectionPlesk::getInstance()->getConnection();
         $ldap->connect();
         
         $filter = sprintf('(&(objectclass=user)(samAccountName=%s))', $visitorUsername);

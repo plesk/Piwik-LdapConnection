@@ -2,7 +2,7 @@
 /**
  * @author https://github.com/ThaDafinser
  */
-namespace Piwik\Plugins\LdapConnection;
+namespace Piwik\Plugins\LdapConnectionPlesk;
 
 use Piwik\Piwik;
 use Piwik\View;
@@ -46,7 +46,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
             $boundUser = 'Anonymous';
         }
         
-        $view = new View('@LdapConnection/index');
+        $view = new View('@LdapConnectionPlesk/index');
         $this->setBasicVariablesView($view);
         $view->connectionSuccess = $connSucc;
         $view->bindSuccess = $bindSucc;

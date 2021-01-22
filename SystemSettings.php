@@ -1,5 +1,5 @@
 <?php
-namespace Piwik\Plugins\LdapConnection;
+namespace Piwik\Plugins\LdapConnectionPlesk;
 
 use Piwik\Settings\FieldConfig;
 use Piwik\Settings\Setting;

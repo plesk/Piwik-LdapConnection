@@ -2,7 +2,7 @@
 /**
  * @author https://github.com/ThaDafinser
  */
-namespace Piwik\Plugins\LdapConnection;
+namespace Piwik\Plugins\LdapConnectionPlesk;
 
 use Exception;
 use Piwik\Piwik;

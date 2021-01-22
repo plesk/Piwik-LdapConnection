@@ -2,11 +2,11 @@
 /**
  * @author https://github.com/ThaDafinser
  */
-namespace Piwik\Plugins\LdapConnection;
+namespace Piwik\Plugins\LdapConnectionPlesk;
 
 use Piwik\Plugin;
 
-class LdapConnection extends Plugin
+class LdapConnectionPlesk extends Plugin
 {
 
     /**
