@@ -1,19 +1,13 @@
-# Piwik LdapConnection Plugin
+# Matomo LdapConnection Plugin
 
 ## Description
 
-Configurable piwik plugin to create an LDAP connection, which can be reused by other plugins.
-Is uses the ZF2 Ldap component: http://framework.zend.com/manual/2.3/en/index.html#zend-ldap
+Configurable Matomo plugin to create an LDAP connection, which can be reused by other plugins.
+It uses the ZF2 Ldap component: http://framework.zend.com/manual/2.3/en/index.html#zend-ldap
 
 Currently used by https://github.com/ThaDafinser/LdapVisitorInfo
 
 ## FAQ
-
-__Why is PIWIK 2.5 required?__
-
-Because the configuration (to be explicit accountFilterFormat) is destroyed in the previous version
-See the ticket here: https://github.com/piwik/piwik/issues/5890
-
 
 __What does this plugin do?__
 
