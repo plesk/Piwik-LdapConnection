@@ -1,6 +1,6 @@
 {
   "name": "LdapConnectionPlesk",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Plugin to make a LDAP connection, which can be used by various LDAP plugins",
   "keywords": ["LDAP", "connection", "ActiveDirectory", "AD", "ThaDafinser", "Plesk"],
   "license": "GPL-3.0",
@@ -11,7 +11,7 @@
   ],
   "theme": false,
   "require": {
-    "matomo": ">=4.0.0-b1,<5.0.0-b1",
+    "matomo": ">=3.0.0-b1,<5.0.0-b1",
     "php": ">=7.0.0,<8.0.0"
   }
 }
